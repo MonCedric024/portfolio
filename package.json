@@ -1,6 +1,6 @@
 {
-  "homepage": "https://mon024.github.io/MyPorfolio",
   "name": "my-app",
+  "homepage": "https://mon024.github.io/MyPorfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
