@@ -16,16 +16,31 @@
 
 .nav-menu {
     display: flex;
-}
-
-.nav-menu li {
+  }
+  
+  .nav-menu li {
     padding: 0 1rem;
-}
-
-.nav-menu li a {
+  }
+  
+  .nav-menu li a {
     font-size: 1.2rem;
-    font-weight: 500;
-}
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-menu .btn {
+    display: inline-block;
+    background-color: #f2f2f2;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: -.3rem;
+    border-radius: 50px;
+  }  
+  
 .burgermenu{
     display: none;
 }
@@ -60,4 +75,9 @@
     .burgermenu {
         display: initial;
     }
+
+    .nav-menu .btn {
+        font-size: 1.9rem;
+        font-weight: bold;
+      }  
 }

@@ -36,31 +36,36 @@
     text-align: center;
 }
 
-.btn {
-    /* Common styles for both light and dark links */
+.content .btn {
     display: inline-block;
     padding: 12px 30px;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 10px; /* Add margin-right to create space between buttons */
-    
-    /* Border styles */
-    border: 2px solid #f2f2f2; /* Replace #000000 with your desired border color */
+    font-size: large;
+    border: 2px solid #f2f2f2;
 }
-
-.btn-light {
-    /* Styles for light color link */
+  
+.content .btn-light {
     background-color: #f2f2f2;
     color: #333333;
 }
-
+  
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.button-container > *:last-child {
+    margin-right: 50px;
+}
+  
 .hero .content h1 {
-    font-size: 4rem;
-    padding: 0.6rem 0 0.6rem;
+    font-size: 5rem;
+    padding: 0.6rem 0 0.8rem;
 }
 
 .hero .content p {
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 200;
     text-transform: uppercase;
 }
@@ -69,14 +74,24 @@
     margin: 1rem 0.2rem;
 }
 
-@media screen and (max-width: 640) {
+@media screen and (max-width: 640px) {
     .hero .content h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     .hero .content p {
-        margin: 1.4rem;
+        font-size: 1.3rem;
     }
+
+    .content .btn {
+        display: inline-block;
+        padding: 12px 30px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: x-small;
+        border: 2px solid #f2f2f2;
+    }
+
 }
   
   
