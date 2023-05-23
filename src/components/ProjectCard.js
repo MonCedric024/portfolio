@@ -1,32 +1,31 @@
 import "./ProjectCardStyle.css"
 
+
 import React from 'react'
-import Project1 from "../assets/Project1.png"
 import { NavLink } from "react-router-dom"
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
   return (
-        <div className="work-container">
-            <h1 className="project-heading">Projects</h1>
-            <div className="project-container">
-                <div className="project-card">
-                    <img src={Project1} alt="" />
-                    <h2 className="project-title">Project Title</h2>
-                    <div className="project-details">
-                    <p>This is text</p>
-                        <div className="project-btn">
-                            <NavLink to="https://librarymanagementsystemsbit3j.epizy.com/login.php" target="_blank" className="btn">
-                            View
-                            </NavLink>
-                            <NavLink to="https://librarymanagementsystemsbit3j.epizy.com/login.php" target="_blank" className="btn">
-                            Repository
-                            </NavLink>
-                        </div>
-                    </div>
-                </div>
+    <div className="project-card">
+        <img src={props.imgsrc} alt="" className="image"/>
+        <h2 className="project-title">{props.title}</h2>
+        <div className="project-logo">
+        {props.logo.map((icon, index) => (
+        <span key={index}>{icon}</span>
+        ))}
+         </div>
+        <div className="project-details">
+        <p>{props.text}</p>
+            <div className="project-btn">
+                <NavLink to={props.view} target="_blank" alt="/contact" className="btn">
+                VIEW
+                </NavLink>
+                <NavLink to="/contact" className="btn">
+                SOURCE
+                </NavLink>
             </div>
         </div>
-
+    </div>
   )
 }
 

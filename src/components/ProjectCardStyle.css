@@ -2,50 +2,62 @@
     text-align: center;
     padding: 4rem 0 2rem 0;
 }
-
+  
 .project-container {
-    max-width: 1140px;
+    max-width: 1440px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     padding-bottom: 2rem;
-  }
-
+}
+  
 .project-card {
     background-color: #1a1919;
     padding: 1.2rem 1rem;
 }
-
+  
 .project-card img {
     width: 100%;
 }
-
+  
 .project-title {
-    padding: 0.5rem 0;
+    padding: 1rem 0;
+    color: #f2f2f2;
+    font-size: 1.5rem;
 }
-
+  
 .project-details p {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem 0;
+    color: #f2f2f2;
+    line-height: 1.5;
+    padding-bottom: 3rem;
+    text-align: justify;
+    text-justify: inter-word;
 }
-
+  
 .project-btn {
     display: flex;
-    color: gray;
     justify-content: space-between;
     padding: 0.5rem 0;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 10px; 
 }
 
+.image {
+    width: 200px;
+    height: 300px;
+  }
+  
 .project-btn .btn {
     background-color: #f2f2f2;
     color: #1a1919;
     padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
 }
+  
+.project-btn .btn:hover {
+    background-color: #eaeaea;
+}  
   
 @media screen and (max-width: 740px) {
     .project-container {
@@ -53,5 +65,9 @@
         margin: auto;
         grid-template-columns: 1fr;
     }
-    
+    .image {
+        width: 200px;
+        height: 250px;
+      }
 }
+

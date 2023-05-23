@@ -29,12 +29,15 @@ const Footer = () => {
                 <h4>About Me</h4>
                 <p>This is me Mon Cedric Avila 4th year student of Quezon City University.</p>
                 <div className="social">
-                    <FaFacebook size={20} style={{color: "white", marginRight: "2rem"}}
-                    />
-                    <FaInstagram size={20} style={{color: "white", marginRight: "2rem"}}
-                    />
-                    <FaTwitter size={20} style={{color: "white", marginRight: "2rem"}}
-                    />
+                <a href="https://www.facebook.com/avilamon024" target="_blank" rel="facebook">
+                <FaFacebook size={20} style={{ color: "white", marginRight: "2rem" }} />
+                </a>
+                <a href="https://www.instagram.com/cedricavila/" target="_blank" rel="instagram">
+                <FaInstagram size={20} style={{ color: "white", marginRight: "2rem" }} />
+                </a>
+                <a href="" target="_blank" rel="twitter">
+                <FaTwitter size={20} style={{ color: "white", marginRight: "2rem" }} />
+                </a>
                 </div>
             </div>
         </div>
