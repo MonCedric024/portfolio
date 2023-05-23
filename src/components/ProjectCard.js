@@ -10,7 +10,7 @@ const ProjectCard = () => {
             <h1 className="project-heading">Projects</h1>
             <div className="project-container">
                 <div className="project-card">
-                    <img src={Project1} alt="image" />
+                    <img src={Project1} alt="" />
                     <h2 className="project-title">Project Title</h2>
                     <div className="project-details">
                     <p>This is text</p>
