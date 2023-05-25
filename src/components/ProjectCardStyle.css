@@ -54,6 +54,7 @@
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+    font-size: 16px;
 }
   
 .project-btn .btn:hover {
@@ -66,12 +67,22 @@
         margin: auto;
         grid-template-columns: 1fr;
     }
+
     .image {
         width: 200px;
         height: 250px;
     }
+
+    .project-title {
+        font-size: 1.2rem;
+    }
+
     .project-details p {
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+
+    .project-btn .btn {
+        font-size: 13px;
     }
       
 }

@@ -17,7 +17,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .location {
@@ -34,7 +34,7 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .social {
@@ -55,10 +55,10 @@
         grid-template-columns: 1fr;
     }
     .footer-container h4 {
-        font-size: 1.1rem;
+        font-size: 1rem;
         padding-bottom: 0.7rem;
     }
     .footer-container p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
