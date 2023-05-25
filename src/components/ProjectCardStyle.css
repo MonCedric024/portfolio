@@ -33,6 +33,7 @@
     padding-bottom: 3rem;
     text-align: justify;
     text-justify: inter-word;
+    font-size: 1.2rem;
 }
   
 .project-btn {
@@ -68,6 +69,10 @@
     .image {
         width: 200px;
         height: 250px;
-      }
+    }
+    .project-details p {
+        font-size: 1.1rem;
+    }
+      
 }
 
