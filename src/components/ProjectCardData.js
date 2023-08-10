@@ -14,7 +14,7 @@ const ProjectCardData = [
             <FaBootstrap size={30} style={{ marginRight: "1rem", color: "#563d7c" }} />,
             <FaPhp size={30} style={{ marginRight: "1rem", color: "#474A8A" }} />,
           ],
-        view: "https://librarymanagementsystemsbit3j.epizy.com/login.php",
+        view: "http://librarymanagementsystemsbit3j.epizy.com/login.php",
     },
     {
         imgsrc: Project2,
