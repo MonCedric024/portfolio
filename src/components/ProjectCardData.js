@@ -1,6 +1,6 @@
-import Project1 from "../assets/Project1.png"
-import Project2 from "../assets/Project2.png"
-import Project3 from "../assets/Project3.jpg"
+import Project1 from "../assets/SanBartolome.png"
+import Project2 from "../assets/Culiat.png"
+import Project3 from "../assets/TheGym.png"
 
 import {FaBootstrap, FaPhp, FaHtml5, FaNodeJs} from "react-icons/fa";
 
