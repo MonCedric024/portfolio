@@ -36,7 +36,7 @@ const NavBar = () => {
                 <Link to="/contact">Contact</Link>
             </li>
             <li>
-                <Link to="https://drive.google.com/file/d/16t61Psjzt0AW3scVPxC1lXWqEMmDHcLj/view" target="_blank" className="btn">View CV</Link>
+                <Link to="https://drive.google.com/file/d/1MaJ9gV169cSh0aOkOjRu9PmPigxtUyTo/view" target="_blank" className="btn">View CV</Link>
             </li>
         </ul>
         <div className="burgermenu" onClick={handleClick}>
